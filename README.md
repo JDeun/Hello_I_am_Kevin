@@ -38,7 +38,6 @@
 ---
 
 ## 🚀 **How I Work | 일하는 방식**
-<div align="center">
 - 🔍 **Problem Solving | 문제 해결**  
   문제를 정의하고 최적의 해결책을 찾아갑니다.  
   *I analyze problems and explore optimal solutions.*
