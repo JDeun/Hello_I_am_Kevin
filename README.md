@@ -2,6 +2,7 @@
   <h1>Welcome to My GitHub 🖤 | 안녕하세요!</h1>
   <p>🌟 <b>인문학적 통찰력</b>으로,  기술의 새로운 가능성을 탐구하는 개발자 조용은입니다. 🌟</p>
 </div>
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJDeun&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ---
 
