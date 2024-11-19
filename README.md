@@ -6,10 +6,10 @@
   <h1>Welcome to My GitHub 🖤 | 안녕하세요!</h1>
   <p>🌟 인문학적 통찰력을 가진 개발자, 조용은입니다. 🌟  </p>
   <p>🌟 A developer with a background in Korean Literature, YongEun Cho. 🌟</p>
-<li>
+
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJDeun&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JDeun&exclude_repo=AI-ML_study,for_CodingTest,AI_model,web_crawler,Jdeun.github.io)](https://github.com/JDeun)
-</li>
+
 </div>
 
 ---
