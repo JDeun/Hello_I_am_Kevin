@@ -8,7 +8,11 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS"/>
+  <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white" alt="node.js"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
 </div>
@@ -18,11 +22,19 @@
 ## 🛠️ **Skills & Tools | 기술 및 도구**
 ### **Languages**
 - Python  
-- JavaScript (HTML, CSS)
+- JavaScript
+- HTML, CSS
+- SQL(OracleDB, MySQL)
+- Java
 
 ### **Frameworks & Libraries**
-- FastAPI, Node.js  
-- PyTorch, NumPy, scikit-learn, LangChain, RAG
+- FastAPI
+- Node.js  
+- PyTorch, TensorFlow, NumPy, scikit-learn, LangChain
+
+### **Skills**
+- RAG
+- Prompt Engineering
 
 ### **Design Tools**
 - Figma  
@@ -53,7 +65,9 @@
 ---
 
 ## 📫 **Contact | 연락처**
-> 아직 준비 중입니다. Updates coming soon!
+✉️ Email: [jdmeekboi@gmail.com](mailto:jdmeekboi@gmail.com)
+✉️ Email: [gadi2003@naver.com](mailto:gadi2003@naver.com)
+🖥️ Linkedin: https://www.linkedin.com/in/조용은
 
 ---
 
