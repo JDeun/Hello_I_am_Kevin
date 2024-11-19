@@ -1,9 +1,14 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Wookyoung%20Kim&fontSize=70&fontAlign=50&fontColor=ffffff" alt="Header Banner" />
+</div>
+
+<div align="center">
   <h1>Welcome to My GitHub 🖤 | 안녕하세요!</h1>
   <p>🌟 국문학적 통찰력을 가진 개발자, 조용은입니다. 🌟  
-  🌟 A developer with a background in Korean Literature, Youngeun Cho. 🌟</p>
+  🌟 A developer with a background in Korean Literature, Wookyoung Kim. 🌟</p>
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJDeun&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) </div>
+  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJDeun&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com) 
+</div>
 
 ---
 
@@ -71,4 +76,8 @@
 
 <div align="center">
   <p><i>감사합니다! Thanks for visiting! 😊</i></p>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&text=Thank%20You!&fontSize=30&fontAlign=50&fontColor=ffffff" alt="Footer Banner" />
 </div>
