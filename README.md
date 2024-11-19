@@ -1,81 +1,70 @@
 <div align="center">
   <h1>Welcome to My GitHub 🖤 | 안녕하세요!</h1>
-  <p>🌟 <b>인문학적 통찰력</b>으로,  기술의 새로운 가능성을 탐구하는 개발자 조용은입니다. 🌟</p>
+  <p>🌟 국문학적 통찰력을 가진 개발자, 조용은입니다. 🌟  
+  🌟 A developer with a background in Korean Literature, Youngeun Cho. 🌟</p>
 </div>
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FJDeun&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ---
 
+## 🛠️ **Tech Stack | 기술 스택**
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS"/>
-  <img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=java&logoColor=white" alt="Java"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white" alt="node.js"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
 </div>
-
----
-
-## 🛠️ **Skills & Tools | 기술 및 도구**
-### **Languages**
-- Python  
-- JavaScript
-- HTML, CSS
-- SQL(OracleDB, MySQL)
-- Java
-
-### **Frameworks & Libraries**
-- FastAPI
-- Node.js  
-- PyTorch, TensorFlow, NumPy, scikit-learn, LangChain
-
-### **Skills**
-- RAG
-- Prompt Engineering
-
-### **Design Tools**
-- Figma  
-
-### **Collaboration**
-- Notion, Slack, Discord
 
 ---
 
 ## 🌟 **Core Values | 핵심 가치**
-- **Simplicity | 간결함**  
-  누구나 쉽게 읽고 이해할 수 있는 코드를 지향합니다.  
-  *I aim to write code that anyone can read and understand.*
+<div align="center">
+  <p><b>✨ Simplicity | 간결함 ✨</b><br>
+  누구나 이해할 수 있는 코드를 작성합니다.<br>
+  <i>I write code that anyone can understand.</i></p>
+  
+  <p><b>✨ Clarity | 명확성 ✨</b><br>
+  친절한 주석으로 코드를 설명합니다.<br>
+  <i>I provide clear and detailed comments.</i></p>
 
-- **Clarity | 명확성**  
-  친절한 주석으로 복잡한 로직도 이해하기 쉽게 만듭니다.  
-  *I provide detailed comments to simplify even the most complex logic.*
-
-- **Responsibility | 책임감**  
-  시작부터 끝까지 신뢰할 수 있는 결과물을 제공합니다.  
-  *From start to finish, I deliver results you can trust.*
+  <p><b>✨ Responsibility | 책임감 ✨</b><br>
+  신뢰할 수 있는 결과물을 제공합니다.<br>
+  <i>I deliver reliable results.</i></p>
+</div>
 
 ---
 
-## 🚀 **Projects | 주요 프로젝트**
-> 곧 추가될 예정입니다. Stay tuned for updates!
+## 🚀 **How I Work | 일하는 방식**
+- 🔍 **Problem Solving | 문제 해결**  
+  문제를 정의하고 최적의 해결책을 찾아갑니다.  
+  *I analyze problems and explore optimal solutions.*
+
+- ⏱️ **Time Management | 시간 관리**  
+  애자일 방식을 활용하여 효율적으로 일정을 관리합니다.  
+  *I utilize agile methodologies to manage schedules efficiently.*
+
+- 🤝 **Collaboration | 협업**  
+  책임감 있는 태도와 명확한 소통을 중요시합니다.  
+  *I value clear communication and accountability.*
+
+- 📚 **Continuous Learning | 지속적 학습**  
+  새로운 기술을 배우고 빠르게 적용합니다.  
+  *I constantly learn and adapt to new technologies.*
 
 ---
 
 ## 📫 **Contact | 연락처**
-✉️ Email: [jdmeekboi@gmail.com](mailto:jdmeekboi@gmail.com)
-✉️ Email: [gadi2003@naver.com](mailto:gadi2003@naver.com)
-🖥️ Linkedin: https://www.linkedin.com/in/조용은
-
----
-
-## 🎨 **Fun Fact | TMI**
-**국문과**에서 쌓은 글쓰기 능력을 살려,  
-개발에서는 누구나 읽기 쉬운 코드를 작성하는 것을 목표로 합니다.  
-*I leverage my background in Korean Literature to write code that’s accessible and easy to understand.*
+<div align="center">
+  <a href="mailto:jdmeekboi@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/조용은" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</div>
 
 ---
 
