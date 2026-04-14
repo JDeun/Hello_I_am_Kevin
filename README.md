@@ -3,10 +3,10 @@
 </div>
 
 <div align="center">
-  <h1>AI Systems Builder | 구조와 맥락을 설계하는 개발자</h1>
+  <h1>AI Systems Builder | 복잡함을 구조로 바꾸는 개발자</h1>
   <p>
-    I build AI products, workflow tools, and software systems that stay understandable over time.<br>
-    AI 제품, 워크플로우 툴, 그리고 시간이 지나도 이해 가능한 소프트웨어 구조를 만듭니다.
+    I build AI products, workflow tools, and software systems that stay clear, durable, and usable.<br>
+    AI 제품, 워크플로우 툴, 그리고 시간이 지나도 선명하고 오래 가는 소프트웨어 구조를 만듭니다.
   </p>
 
   <p>
@@ -16,7 +16,7 @@
     <a href="https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
-    <img src="https://img.shields.io/badge/Focus-Agent%20Ops%20%26%20LLM%20Workflows-0f766e?style=for-the-badge" alt="Focus" />
+    <img src="https://img.shields.io/badge/Focus-AI%20Systems%20%26%20Product%20Thinking-0f766e?style=for-the-badge" alt="Focus" />
   </p>
 
   <p>
@@ -36,8 +36,14 @@
 
 I am Kevin Cho, a developer with a background in Korean literature and a strong interest in how language, structure, and tooling shape the way people work.
 
-제 관심사는 단순히 모델을 붙이는 것이 아니라, 사람이 실제로 오래 사용할 수 있는 형태로 AI 시스템을 설계하는 것입니다.  
-즉흥적인 데모보다 운영 가능성, 추적 가능성, 확장성, 그리고 실제 생활 속 효용을 더 중요하게 봅니다.
+저는 기술을 단지 "구현"하는 것보다, 그것이 사람의 일하는 방식과 사고 흐름을 어떻게 바꾸는지에 더 큰 관심이 있습니다.  
+그래서 제 작업은 보통 모델 연결이나 기능 추가에서 끝나지 않고, 구조, 맥락, 운영 가능성, 사용 경험까지 함께 다루는 방향으로 갑니다.
+
+제가 반복해서 붙잡는 질문은 비슷합니다.
+
+- 이 시스템은 시간이 지나도 이해 가능한가
+- 실제 사용 흐름 안에서 자연스럽게 작동하는가
+- 복잡함을 늘리지 않고도 더 강한 결과를 만들 수 있는가
 
 ---
 
@@ -50,12 +56,31 @@ I am Kevin Cho, a developer with a background in Korean literature and a strong 
 
 공개 프로필 기준으로 요약하면:
 
-- AI를 실제 사용 흐름에 연결하는 것
-- 복잡한 시스템을 더 명확하게 만드는 것
-- 오래 운영해도 무너지지 않는 구조를 만드는 것
-- 제품, 인터페이스, 운영 구조를 함께 보는 것
+- 복잡한 문제를 더 명확한 구조로 바꾸는 것
+- AI를 실제 사용 흐름 안에 자연스럽게 넣는 것
+- 기능보다 운영 가능성과 지속 가능성을 먼저 보는 것
+- 제품 감각과 시스템 설계를 함께 가져가는 것
 
 를 만드는 쪽에 집중하고 있습니다.
+
+---
+
+## Signature Themes
+
+### Calm Systems
+
+I like software that feels calm under real use.
+Not noisy, not over-automated, not impressive only for the first five minutes.
+
+### Durable AI
+
+I care about AI systems that can survive repeated use, changing context, and imperfect models.
+That usually means better structure, better boundaries, and better operational thinking.
+
+### Product Sense
+
+I do not see engineering, UX, and documentation as separate finishing steps.
+Good products usually come from making those three move together.
 
 ---
 
@@ -86,6 +111,7 @@ That work has included:
 - AI-assisted workflow design
 - automation-heavy operational tooling
 - turning ambiguous requirements into structured, maintainable systems
+- building interfaces and flows that make technical systems easier to trust and use
 
 So this profile is better read as a public-facing summary of how I think and build, not as a complete inventory of everything I have worked on.
 
@@ -97,6 +123,7 @@ So this profile is better read as a public-facing summary of how I think and bui
 - I reduce ambiguity before adding more complexity.
 - I care about naming, documentation, and structure as much as implementation.
 - I try to make software that still makes sense a month later, not just during the first demo.
+- I like products that feel thoughtful, not merely functional.
 
 일하는 방식도 비슷합니다.
 
@@ -125,6 +152,11 @@ Reliable output requires good boundaries, not just good prompts.
 
 A useful tool should survive real use, changing context, and future expansion.
 
+### Taste
+
+I care about whether a product feels intentional.
+Not only whether it works, but whether it communicates clearly and earns trust.
+
 ---
 
 ## Tech I Use
@@ -151,7 +183,7 @@ A useful tool should survive real use, changing context, and future expansion.
 
 If you want to talk about:
 
-- agent operations
+- AI systems and agent workflows
 - AI product and workflow design
 - software architecture and maintainable tooling
 - prompt discipline, LLM integration, and practical automation
@@ -165,6 +197,6 @@ you can reach me here:
 ---
 
 <div align="center">
-  <p><i>Thanks for visiting. I care about building software that stays clear, useful, and durable.</i></p>
+  <p><i>Thanks for visiting. I build software that turns complexity into something clear, durable, and worth using.</i></p>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,50:1d4ed8,100:0f172a&height=140&section=footer&text=%20&fontSize=24&fontAlign=50&fontColor=ffffff" alt="Footer Banner" />
 </div>
