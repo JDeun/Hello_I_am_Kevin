@@ -3,10 +3,10 @@
 </div>
 
 <div align="center">
-  <h1>AI Systems Builder | 문제를 오래 버티는 구조로 만드는 개발자</h1>
+  <h1>AI Systems Builder | 구조와 맥락을 설계하는 개발자</h1>
   <p>
-    I design personal AI systems, workflow tooling, and durable agent operations.<br>
-    장기적으로 운영 가능한 AI 에이전트 시스템, 워크플로우 툴링, 운영 구조를 만듭니다.
+    I build AI products, workflow tools, and software systems that stay understandable over time.<br>
+    AI 제품, 워크플로우 툴, 그리고 시간이 지나도 이해 가능한 소프트웨어 구조를 만듭니다.
   </p>
 
   <p>
@@ -43,37 +43,29 @@ I am Kevin Cho, a developer with a background in Korean literature and a strong 
 
 ## What I Build
 
-- Personal AI systems that can operate across memory, tasks, notes, and external tools
-- Stability-first harnesses for agents that need context, rollback visibility, and execution discipline
-- Workflow tools that connect LLMs with practical day-to-day use cases
-- Interfaces and structures that make complex systems feel calm and understandable
+- AI-powered products and workflow tooling
+- Systems that connect language models to practical everyday use cases
+- Interfaces and structures that make complex tools feel clear and usable
+- Software that values durability, traceability, and maintainability over short-lived demos
 
-요약하면:
+공개 프로필 기준으로 요약하면:
 
-- 에이전트가 "한 번 잘 대답하는 것"보다 "계속 안정적으로 일하는 것"에 관심이 많고
-- 작은 모델과 큰 모델을 함께 쓰는 구조
-- 문서 규율을 코드 강제성으로 바꾸는 하네스
-- 개인 워크플로우에 실제로 녹아드는 AI 시스템
+- AI를 실제 사용 흐름에 연결하는 것
+- 복잡한 시스템을 더 명확하게 만드는 것
+- 오래 운영해도 무너지지 않는 구조를 만드는 것
+- 제품, 인터페이스, 운영 구조를 함께 보는 것
 
 를 만드는 쪽에 집중하고 있습니다.
 
 ---
 
-## Current Focus
-
-### OpenClaw
-
-A long-lived personal agent workspace focused on:
-
-- file-native memory
-- operational task tracing
-- adaptive harnesses
-- skill contracts
-- durable state capture
+## Selected Work
 
 ### Helm
 
-A reusable open-source operations layer for long-lived agents, built around:
+Helm is an open-source operations layer for long-lived AI agents and workflows.
+
+It focuses on:
 
 - execution profiles
 - context hydration
@@ -81,14 +73,30 @@ A reusable open-source operations layer for long-lived agents, built around:
 - auditability
 - safer extensibility for local and hosted models
 
+Repository:
+- [`JDeun/Helm`](https://github.com/JDeun/Helm)
+
+### Company And Private Work
+
+Much of my practical work is not packaged as a public repository.
+
+That work has included:
+
+- internal product and service development
+- AI-assisted workflow design
+- automation-heavy operational tooling
+- turning ambiguous requirements into structured, maintainable systems
+
+So this profile is better read as a public-facing summary of how I think and build, not as a complete inventory of everything I have worked on.
+
 ---
 
 ## How I Work
 
 - I prefer systems that are explicit rather than magical.
-- I reduce operational risk before adding more capability.
+- I reduce ambiguity before adding more complexity.
 - I care about naming, documentation, and structure as much as implementation.
-- I try to make tools that still make sense a month later, not just during the first demo.
+- I try to make software that still makes sense a month later, not just during the first demo.
 
 일하는 방식도 비슷합니다.
 
@@ -144,9 +152,10 @@ A useful tool should survive real use, changing context, and future expansion.
 If you want to talk about:
 
 - agent operations
-- long-lived AI workflows
-- prompt discipline vs code-enforced governance
-- product thinking around personal AI systems
+- AI product and workflow design
+- software architecture and maintainable tooling
+- prompt discipline, LLM integration, and practical automation
+- product thinking around real-world developer tools
 
 you can reach me here:
 
@@ -156,6 +165,6 @@ you can reach me here:
 ---
 
 <div align="center">
-  <p><i>Thanks for visiting. I am building systems that stay useful after the first impression.</i></p>
+  <p><i>Thanks for visiting. I care about building software that stays clear, useful, and durable.</i></p>
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:14b8a6,50:1d4ed8,100:0f172a&height=140&section=footer&text=%20&fontSize=24&fontAlign=50&fontColor=ffffff" alt="Footer Banner" />
 </div>
