@@ -127,6 +127,29 @@ Core ideas include:
 Repository:
 - [`JDeun/Helm`](https://github.com/JDeun/Helm)
 
+### LangTextFlow
+
+**LangTextFlow** is a local-first, open-source realtime multilingual caption system for live events.
+
+It turns microphone audio into progressively stabilized captions, applies bounded AI correction, fans one source caption out to multiple target languages, and serves the result to audience phones, projectors, and OBS surfaces.
+
+The project is built around the failure modes of realtime AI rather than a single-model demo:
+
+- streaming ASR with VibeVoice and faster-whisper fallback
+- explicit caption lifecycle from partial recognition to committed translation
+- correction and multi-target translation as separate model roles
+- one-way failover and bounded queues for realtime degradation
+- glossary, hotword, and document context for domain terminology
+- FastAPI + React + Tauri desktop architecture
+- local Ollama and explicit OpenAI-compatible remote-provider boundaries
+- local SQLite history and SRT / WebVTT / TXT / JSON export
+- Browser E2E, accessibility, adversarial/security, load/soak, CodeQL, SBOM, and packaging CI
+
+The public repository is intentionally described as a **pre-field alpha / code-complete candidate**: the code-level product path is implemented, while real venue acceptance, long-duration hardware validation, and production signing/notarization remain separate operational evidence.
+
+Repository:
+- [`JDeun/LangTextFlow`](https://github.com/JDeun/LangTextFlow)
+
 ### AudioScoreTool
 
 **AudioScoreTool** is a local-first AI-assisted music transcription and score production environment that turns audio, existing scores, and notation data into editable publication-ready sheet music.
