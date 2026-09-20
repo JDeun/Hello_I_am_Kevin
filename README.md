@@ -3,10 +3,10 @@
 </div>
 
 <div align="center">
-  <h1>AI Systems Engineer | LLM · RAG · Backend</h1>
+  <h1>AI Systems Engineer | LLM · RAG · Realtime AI · Backend</h1>
   <p>
-    I build reliable AI systems that connect language models, retrieval, backend infrastructure, and real product workflows.<br>
-    LLM과 RAG를 실제 서비스 구조 안에서 안정적으로 운영하기 위한 시스템을 설계하고 구현합니다.
+    I build reliable AI systems that connect language models, retrieval, realtime pipelines, backend infrastructure, and real product workflows.<br>
+    LLM·RAG·실시간 AI를 실제 서비스 구조 안에서 안정적으로 운영하기 위한 시스템을 설계하고 구현합니다.
   </p>
 
   <p>
@@ -43,8 +43,10 @@ I am Kevin Cho, an AI systems engineer with a background in Korean literature an
 
 - **LLM systems** — structured output, validation, execution harnesses, operational reliability
 - **Agentic RAG** — routing, tool selection, schema-aware retrieval, multi-agent orchestration
+- **Realtime AI systems** — streaming ASR, caption stabilization, model failover, multilingual fan-out
+- **Persistent context** — source-grounded derived memory, provenance, context arbitration, rebuildable state
 - **Backend architecture** — FastAPI services, state management, APIs, data pipelines, observability
-- **Local-first AI** — local models, local context, private state, controlled external access
+- **Local-first AI** — local models, private state, controlled external access, local/remote trust boundaries
 - **Human-in-the-loop AI** — imperfect model output → validation → correction → usable final artifact
 - **Applied research** — turning recurring production failures into measurable research questions
 
