@@ -26,7 +26,7 @@
 
 I am Kevin Cho, an AI systems engineer with a background in Korean literature and a strong interest in how language, structure, and software architecture shape reliable AI products.
 
-현재는 **LLM, RAG, agent orchestration, backend architecture, validation, local-first AI**를 중심으로 일하고 있습니다.
+현재는 **LLM, RAG, agent orchestration, realtime AI, backend architecture, validation, local-first AI**를 중심으로 일하고 있습니다.
 
 모델을 연결하는 것 자체보다 더 중요한 문제에 관심이 있습니다.
 
