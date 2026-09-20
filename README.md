@@ -150,6 +150,31 @@ The public repository is intentionally described as a **pre-field alpha / code-c
 Repository:
 - [`JDeun/LangTextFlow`](https://github.com/JDeun/LangTextFlow)
 
+### GrowWise
+
+**GrowWise** is a local-first family learning system built around persistent child-specific context and a closed learning loop: **record → next activity → real experience → record again**.
+
+From an engineering perspective, it explores how a product can use long-term AI context without turning generated summaries into hidden source-of-truth state.
+
+It combines:
+
+- Markdown as the authoritative source of truth with rebuildable SQLite projections
+- hybrid retrieval plus graph-linked context
+- a source-grounded derived Learning Wiki for longitudinal synthesis
+- provenance links, source fingerprints, invalidation, backup, restore, and child-scoped purge
+- raw-record-over-derived-memory trust ordering
+- local multimodal Ollama models with hardware-aware model selection
+- deterministic degradation when AI is unavailable
+- prompt-injection boundaries and explicit local/remote model privacy gates
+- parent-reviewable educational material generation
+- FastAPI + React + Tauri desktop architecture
+- cross-platform CI, CodeQL, secret scanning, dependency hygiene, and authenticated sidecar smoke
+
+The project is currently **pre-1.0**. Its code-level product path and automated hardening are implemented; long-term household dogfooding, real-device model acceptance, signing/notarization, and updater acceptance remain operational validation work.
+
+Repository:
+- [`JDeun/growwise`](https://github.com/JDeun/growwise)
+
 ### AudioScoreTool
 
 **AudioScoreTool** is a local-first AI-assisted music transcription and score production environment that turns audio, existing scores, and notation data into editable publication-ready sheet music.
