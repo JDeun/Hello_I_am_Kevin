@@ -252,6 +252,8 @@ Recurring production failures are often useful research questions. I prefer meas
 
 - LLM orchestration and structured generation
 - agentic RAG / CRAG-style validation flows
+- persistent context, provenance, and derived-memory design
+- streaming ASR, caption correction, and multilingual translation pipelines
 - tool routing and schema-aware systems
 - local and hosted model integration
 - embeddings, vector retrieval, reranking, evaluation
@@ -270,6 +272,20 @@ Recurring production failures are often useful research questions. I prefer meas
 - API integration and tool adapters
 - stateful workflow services
 - data ingestion and processing pipelines
+
+### Product Runtime / Desktop
+
+<div align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white" alt="Tauri" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama" />
+</div>
+
+- React interfaces for operator, family, review, and desktop workflows
+- Tauri desktop shells and authenticated local sidecar processes
+- local model/runtime setup, health checks, fallback, and hardware-aware configuration
+- Windows/macOS packaging, cross-platform validation, and release plumbing
 
 ### Data / Storage / Infrastructure
 
@@ -306,10 +322,11 @@ Recurring production failures are often useful research questions. I prefer meas
 If you want to talk about:
 
 - LLM systems and operational reliability
-- agentic RAG and routing
+- agentic RAG, persistent context, and routing
+- realtime ASR / multilingual AI pipelines
 - backend architecture for AI products
 - structured output, validation, and execution harnesses
-- local-first AI and persistent agent workflows
+- local-first AI, privacy boundaries, and persistent agent workflows
 - applied AI research and production failure analysis
 
 you can reach me here:
