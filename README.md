@@ -70,9 +70,9 @@ One finding runs through all of it: **the harness around a model often matters m
 
 ## Teaching & Industry Collaboration
 
-- **Sungkyunkwan University** — ran the single point of contact for industry–academia collaboration, served as industry mentor for *Next-Generation Semiconductor Capstone Design* for **three consecutive semesters**, and authored the RAG course material and lab code used in the collaboration course.
-- **Daelim University** — designed and delivered a 3-hour faculty seminar, *"Planning and Designing Projects with Generative AI,"* for 26 instructors, including the per-session curriculum and a zero-install web lab environment.
-- **Hanyang Women's University × KAILOSLAB** — teaching assistant for the Intel AI industry-collaboration program; students went on to earn Intel AI certification.
+- **Sungkyunkwan University** — industry mentor, *Next-Generation Semiconductor Capstone Design* (three semesters); RAG course material for the industry–academia course.
+- **Daelim University** — faculty seminar on building with generative AI.
+- **Hanyang Women's University × KAILOSLAB** — teaching assistant, Intel AI program.
 
 ---
 
@@ -108,7 +108,7 @@ All three are local-first, FastAPI-based, and packaged for desktop.
 
 ## Company & Private Work
 
-Much of my production work cannot be published as a public repository. It has included multi-agent RAG and orchestration, internal AI assistants, document and structured-data pipelines, and retrieval across heterogeneous sources. Mostly it has meant turning ambiguous business requirements into systems someone else can maintain.
+Much of my production work cannot be published as a public repository. It has included multi-agent RAG and orchestration, internal AI assistants, document and structured-data pipelines, and retrieval across heterogeneous sources.
 
 ---
 
