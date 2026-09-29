@@ -34,7 +34,7 @@ Everything below is public and verifiable. Each status is the one the repository
 
 | Project | What it is | Status |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed capability retrieval and execution layer for RAG and LLM agents across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.10.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed capability retrieval and execution layer for RAG and LLM agents across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.11.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
 | **[Helm](https://github.com/JDeun/Helm)** | Stability-first operations CLI for long-running AI agent workspaces | `pip install helm-agent-ops` · **v1.0.0** · MIT |
 | **[local_context](https://github.com/JDeun/local_context)** | Location, time, and weather context for agents, kept on your own mesh instead of a cloud | **v0.1.0** · MIT · zero dependencies |
 | **[GrowWise](https://github.com/JDeun/growwise)** | Local-first family learning system built on persistent child-specific context | source · pre-1.0 · Apache-2.0 |

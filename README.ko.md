@@ -33,7 +33,7 @@
 
 | 프로젝트 | 무엇인가 | 상태 |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 타입 있는 capability 카탈로그로 정규화하는 RAG/에이전트 실행 계층 | `pip install schemarouter` · **v0.10.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 타입 있는 capability 카탈로그로 정규화하는 RAG/에이전트 실행 계층 | `pip install schemarouter` · **v0.11.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
 | **[Helm](https://github.com/JDeun/Helm)** | 장기 실행 AI 에이전트 워크스페이스를 위한 안정성 우선 운영 CLI | `pip install helm-agent-ops` · **v1.0.0** · MIT |
 | **[local_context](https://github.com/JDeun/local_context)** | 에이전트에 위치·시각·날씨 맥락을 주되 좌표를 클라우드가 아닌 개인 메시에만 두는 모듈 | **v0.1.0** · MIT · 의존성 0 |
 | **[GrowWise](https://github.com/JDeun/growwise)** | 아이별 지속 맥락 위에 세운 로컬 우선 가족 학습 시스템 | 소스 · pre-1.0 · Apache-2.0 |
