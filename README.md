@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:14b8a6&height=280&section=header&text=Kevin%20Cho&fontSize=64&fontAlign=50&fontColor=ffffff&desc=LLM%20Systems%20%C2%B7%20RAG%20%C2%B7%20Backend%20%C2%B7%20Applied%20AI&descAlign=50&descAlignY=68" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:14b8a6&height=280&section=header&text=Kevin%20Cho&fontSize=64&fontAlign=50&fontColor=ffffff&desc=LLM%20%C2%B7%20RAG%20%C2%B7%20Realtime%20AI%20%C2%B7%20Backend&descAlign=50&descAlignY=68" alt="Header Banner" />
 </div>
 
 <div align="center">
   <h1>AI Systems Engineer | LLM · RAG · Realtime AI · Backend</h1>
   <p>
-    I build reliable AI systems from language models, retrieval, realtime pipelines, and product workflows.<br>
-    LLM·RAG·실시간 AI를 실제 서비스 구조 안에서 안정적으로 운영하기 위한 시스템을 설계하고 구현합니다.
+    I build reliable AI systems out of language models, retrieval, realtime pipelines,<br>
+    and the product workflows that have to survive them.
   </p>
 
   <p>
@@ -27,9 +27,11 @@
 
 ---
 
-## Open Source
+I came to AI systems from Korean literature, and I still think the interesting problems are about structure: what counts as the canonical source, where uncertainty gets checked, and what a system does when the model is wrong.
 
-Each status below is the one the repository gives itself.
+---
+
+## Open Source
 
 | Project | What it is | Status |
 |---|---|---|
@@ -45,7 +47,7 @@ Each status below is the one the repository gives itself.
 
 ## Research
 
-Every paper below is sole-author.
+One finding runs through all of it: **the harness around a model often matters more than the model.** An incomplete wrapper can score worse than calling the base model directly, and that penalty does not shrink as the model gets better.
 
 <!-- papers starts -->
 | Paper | arXiv | Date |
@@ -64,8 +66,6 @@ Every paper below is sole-author.
 
 - Local context and context arbitration — how agents should resolve competing context sources. The module ([`local_context`](https://github.com/JDeun/local_context)) is published; the paper is not yet.
 
-All of it comes from one finding I kept running into: **the harness around a model often matters more than the model.**
-
 ---
 
 ## Teaching & Industry Collaboration
@@ -76,11 +76,13 @@ All of it comes from one finding I kept running into: **the harness around a mod
 
 ---
 
-## Selected Work
+## In Depth
+
+Three of the projects above, and why they are built the way they are.
 
 ### SchemaRouter — paper and library
 
-SchemaRouter sits between a RAG or agent application and the tools it calls. It normalizes OpenAPI, MCP, OPTIMADE, Python, and plugin-defined tools into one typed catalog, picks a bounded route for the request, and checks the contract **both before and after** execution.
+SchemaRouter sits between a RAG or agent application and the tools it calls. It normalizes OpenAPI, MCP, OPTIMADE, Python, and plugin-defined tools into one typed catalog, picks a bounded route for the request, and checks the contract **both before and after** execution. It is deliberately **not** a general agent framework, an LLM provider layer, or a RAG generator.
 
 The [paper](https://arxiv.org/abs/2608.21375) argues that schemas belong in the routing problem, not just semantic similarity. The library is that argument, installable:
 
@@ -90,17 +92,21 @@ The [paper](https://arxiv.org/abs/2608.21375) argues that schemas belong in the 
 - approval callbacks, execution budgets, evidence requirements, binding-drift detection
 - `py.typed`, bilingual docs site
 
-It is deliberately **not** a general agent framework, an LLM provider layer, or a RAG generator.
-
 ### Helm
 
 **Helm** is an operations layer for agents that stay running. It replaces hidden runtime behavior with things you can inspect and set: execution profiles, context hydration, manifest-based skill policy, audit trails, and operational boundaries.
 
-### Product work — one recurring problem
+### LangTextFlow, GrowWise, AudioScoreTool — one recurring problem
 
-[**LangTextFlow**](https://github.com/JDeun/LangTextFlow), [**GrowWise**](https://github.com/JDeun/growwise), and [**AudioScoreTool**](https://github.com/JDeun/audio-score-tool) are different products with the same shape underneath: **imperfect model output → validated state → human correction → final artifact.** Captions that must commit before they are certain; a learning record where generated summaries must never quietly become the source of truth; a score draft the user corrects rather than enters. All three are local-first, FastAPI-based, and packaged for desktop.
+Three different products with the same shape underneath: **imperfect model output → validated state → human correction → final artifact.**
 
-### Company & Private Work
+Captions that must commit before they are certain. A learning record where a generated summary must never quietly become the source of truth. A score draft the user corrects rather than enters.
+
+All three are local-first, FastAPI-based, and packaged for desktop.
+
+---
+
+## Company & Private Work
 
 Much of my production work cannot be published as a public repository. It has included multi-agent RAG and orchestration, internal AI assistants, document and structured-data pipelines, and retrieval across heterogeneous sources. Mostly it has meant turning ambiguous business requirements into systems someone else can maintain.
 
@@ -108,13 +114,13 @@ Much of my production work cannot be published as a public repository. It has in
 
 ## How I Work
 
-I came to AI systems from Korean literature, and I still think the interesting problems are about structure: what counts as the canonical source, where uncertainty gets checked, and what a system does when the model is wrong.
+Each of these is checkable in the repositories above.
 
-- **Explicit over magical** — routing, state, validation, permissions, and failure behavior should be inspectable.
-- **Reliability over demo quality** — validation and recovery are designed in, not added after the first incident.
-- **Boundaries** — models get bounded authority and a defined failure mode.
-- **Traceability** — inputs, model decisions, transformations, and outputs should be attributable.
-- **Research from failure modes** — recurring production failures become measurable research questions.
+- **Explicit over magical** — Helm turns hidden runtime behavior into execution profiles, manifest-based skill policy, and audit trails you can read before anything runs.
+- **Bounded authority** — in SchemaRouter a tool call carries an approval callback, an execution budget, and a contract verified on both sides of execution.
+- **Raw record over derived memory** — GrowWise keeps Markdown authoritative and rebuilds its SQLite projections from it, so an AI summary never becomes the thing everything else trusts.
+- **Say what is not finished** — LangTextFlow and AudioScoreTool label themselves pre-release on their own front pages. An unsigned CI artifact is not a shipped product, and calling it one costs more than waiting.
+- **Research from failure modes** — the two harness papers exist because an incomplete wrapper kept losing to the bare model in systems I was running.
 
 ---
 
@@ -124,7 +130,3 @@ Happy to talk about LLM operational reliability, agentic RAG and routing, or loc
 
 - Email: [jdmeekboi@gmail.com](mailto:jdmeekboi@gmail.com)
 - LinkedIn: [linkedin.com/in/조용은](https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80)
-
-<div align="center">
-  <p><i>Building AI systems that remain clear when the model is imperfect and the workflow becomes real.</i></p>
-</div>
