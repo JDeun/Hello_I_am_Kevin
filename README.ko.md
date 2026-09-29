@@ -5,7 +5,7 @@
 <div align="center">
   <h1>AI Systems Engineer | LLM · RAG · 실시간 AI · 백엔드</h1>
   <p>
-    LLM·RAG·실시간 AI를 실제 서비스 구조 안에서 안정적으로 운영하기 위한 시스템을 설계하고 구현합니다.
+    LLM·RAG·실시간 AI가 실제 서비스에서 안정적으로 돌아가도록 설계하고 만듭니다.
   </p>
 
   <p>
@@ -32,12 +32,12 @@
 
 | 프로젝트 | 무엇인가 | 상태 |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 타입 있는 capability 카탈로그로 정규화하는 RAG/에이전트 실행 계층 | `pip install schemarouter` · **v0.11.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
-| **[Helm](https://github.com/JDeun/Helm)** | 장기 실행 AI 에이전트 워크스페이스를 위한 안정성 우선 운영 CLI | `pip install helm-agent-ops` · **v1.0.0** · MIT |
-| **[local_context](https://github.com/JDeun/local_context)** | 에이전트에 위치·시각·날씨 맥락을 주되 좌표를 클라우드가 아닌 개인 메시에만 두는 모듈 | **v0.1.0** · MIT · 의존성 0 |
-| **[GrowWise](https://github.com/JDeun/growwise)** | 아이별 지속 맥락 위에 세운 로컬 우선 가족 학습 시스템 | 소스 · pre-1.0 · Apache-2.0 |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 한 카탈로그로 묶어 라우팅하고 실행 | `pip install schemarouter` · **v0.11.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
+| **[Helm](https://github.com/JDeun/Helm)** | 오래 돌아가는 에이전트 워크스페이스를 운영하는 CLI | `pip install helm-agent-ops` · **v1.0.0** · MIT |
+| **[local_context](https://github.com/JDeun/local_context)** | 에이전트에 위치·시각·날씨를 알려주되, 좌표는 클라우드가 아닌 내 기기에만 | **v0.1.0** · MIT · 의존성 0 |
+| **[GrowWise](https://github.com/JDeun/growwise)** | 아이의 기록이 다음 활동으로 이어지는 가족 학습 앱 | 소스 · pre-1.0 · Apache-2.0 |
 | **[AudioScoreTool](https://github.com/JDeun/audio-score-tool)** | 음원·악보 이미지를 편집 가능한 출판 악보로 | 소스 · v0.8.0, 서명 배포 전 · Apache-2.0 |
-| **[LangTextFlow](https://github.com/JDeun/LangTextFlow)** | 라이브 현장을 위한 로컬 우선 실시간 다국어 자막 | 소스 · pre-field alpha · Apache-2.0 |
+| **[LangTextFlow](https://github.com/JDeun/LangTextFlow)** | 현장에서 바로 쓰는 실시간 다국어 자막 | 소스 · pre-field alpha · Apache-2.0 |
 | **[unified-search-mcp-server](https://github.com/JDeun/unified-search-mcp-server)** | 구글 스콜라·웹·유튜브를 한 번에 검색하는 MCP 서버 | 소스 · MIT |
 
 ---
@@ -63,7 +63,7 @@
 
 - 로컬 컨텍스트와 컨텍스트 중재 — 에이전트가 서로 경합하는 맥락 소스를 어떻게 정리할 것인가. 모듈([`local_context`](https://github.com/JDeun/local_context))은 공개했고 논문은 아직입니다.
 
-전부 운영하다 반복해서 부딪힌 한 가지에서 나왔습니다. **모델 자체보다 모델을 감싼 하네스가 더 크게 좌우할 때가 많습니다.**
+모두 같은 문제에서 나왔습니다. **모델 자체보다 모델을 감싼 하네스가 결과를 더 크게 좌우할 때가 많다는 것.**
 
 ---
 
@@ -79,9 +79,9 @@
 
 ### SchemaRouter — 논문과 라이브러리
 
-SchemaRouter는 RAG·에이전트 애플리케이션과 그 바깥의 구조화된 외부 기능 사이에 놓입니다. OpenAPI·MCP·OPTIMADE·Python·플러그인 도구를 타입 있는 capability 카탈로그로 정규화하고, 요청된 데이터에 대해 경계가 분명한 실행 경로를 고른 뒤, **실행 전과 후 양쪽에서** 계약을 다시 검증합니다.
+SchemaRouter는 RAG·에이전트 앱과 그것이 호출하는 도구 사이에 놓입니다. OpenAPI·MCP·OPTIMADE·Python·플러그인 도구를 하나의 타입 있는 카탈로그로 묶고, 요청에 맞는 실행 경로를 좁혀 고른 뒤, **실행 전과 후 양쪽에서** 계약을 검사합니다.
 
-[논문](https://arxiv.org/abs/2608.21375)은 의미 유사도만이 아니라 스키마가 라우팅 문제의 일부여야 한다고 주장합니다. 라이브러리는 그 주장을 설치 가능한 형태로 만든 것입니다.
+[논문](https://arxiv.org/abs/2608.21375)은 의미 유사도만이 아니라 스키마도 라우팅 문제의 일부라고 주장합니다. 그 주장을 그대로 설치해 쓸 수 있게 만든 것이 이 라이브러리입니다.
 
 - 어댑터 5종 — MCP, OpenAPI, OPTIMADE, Python, 플러그인
 - 생태계 통합 8종 — LangChain, LangGraph, LlamaIndex, Ollama, OpenTelemetry 등
@@ -93,7 +93,7 @@ SchemaRouter는 RAG·에이전트 애플리케이션과 그 바깥의 구조화�
 
 ### Helm
 
-**Helm**은 장기 실행 AI 에이전트와 워크플로를 위한 오픈소스 운영 계층입니다. 오래 살아 있는 에이전트 시스템을 숨은 런타임 동작에 맡기지 않고 명시적이고 통제 가능하게 만듭니다. 실행 프로파일, 컨텍스트 하이드레이션, 매니페스트 기반 스킬 정책, 감사 가능성, 운영 경계가 그 수단입니다.
+**Helm**은 계속 돌아가는 에이전트를 운영하는 계층입니다. 숨은 런타임 동작을 들여다보고 지정할 수 있는 것으로 바꿉니다 — 실행 프로파일, 컨텍스트 하이드레이션, 매니페스트 기반 스킬 정책, 감사 기록, 운영 경계.
 
 ### 제품 작업 — 반복되는 한 가지 문제
 
@@ -101,7 +101,7 @@ SchemaRouter는 RAG·에이전트 애플리케이션과 그 바깥의 구조화�
 
 ### 회사 업무 · 비공개 작업
 
-제 실무의 상당 부분은 공개 저장소로 낼 수 없습니다. 멀티 에이전트 RAG와 오케스트레이션, 사내 AI 어시스턴트, 문서·정형 데이터 파이프라인, 이종 소스에 걸친 검색과 라우팅이 포함됩니다. 대개는 모호한 비즈니스 요구를 남이 유지보수할 수 있는 시스템으로 바꾸는 일이었습니다.
+제 실무의 상당 부분은 공개 저장소로 낼 수 없습니다. 멀티 에이전트 RAG와 오케스트레이션, 사내 AI 어시스턴트, 문서·정형 데이터 파이프라인, 이종 소스에 걸친 검색과 라우팅을 다뤘습니다. 대개는 모호한 비즈니스 요구를 남이 유지보수할 수 있는 시스템으로 바꾸는 일이었습니다.
 
 ---
 
@@ -109,10 +109,10 @@ SchemaRouter는 RAG·에이전트 애플리케이션과 그 바깥의 구조화�
 
 국어국문학에서 출발해 AI 시스템으로 왔고, 지금도 흥미로운 문제는 결국 구조에 있다고 생각합니다. 무엇을 사실의 출처로 볼 것인가, 불확실성을 어디서 검증할 것인가, 모델이 틀렸을 때 시스템이 무엇을 하는가.
 
-- **마법보다 명시** — 라우팅·상태·검증·권한·실패 동작은 들여다볼 수 있어야 합니다.
+- **감추지 않기** — 라우팅·상태·검증·권한·실패 동작은 들여다볼 수 있어야 합니다.
 - **데모 품질보다 신뢰성** — 검증과 복구는 사고가 난 뒤 덧붙이는 게 아니라 처음부터 설계에 넣습니다.
 - **경계** — 모델에는 한정된 권한과 정해진 실패 방식을 줍니다.
-- **추적 가능성** — 입력, 모델의 결정, 변환, 출력은 귀속될 수 있어야 합니다.
+- **추적 가능성** — 어떤 입력과 판단을 거쳐 그 출력이 나왔는지 되짚을 수 있어야 합니다.
 - **실패에서 나온 연구** — 반복되는 운영 실패를 측정 가능한 연구 질문으로 바꿉니다.
 
 ---
@@ -125,5 +125,5 @@ LLM 운영 신뢰성, 에이전틱 RAG와 라우팅, 로컬 우선 AI와 프라�
 - LinkedIn: [linkedin.com/in/조용은](https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80)
 
 <div align="center">
-  <p><i>모델이 불완전하고 워크플로가 실제가 되어도 명료함을 잃지 않는 AI 시스템을 만듭니다.</i></p>
+  <p><i>모델이 틀리고 현장이 거칠어져도 구조가 흐려지지 않는 AI 시스템을 만듭니다.</i></p>
 </div>

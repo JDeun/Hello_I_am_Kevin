@@ -33,12 +33,12 @@ Each status below is the one the repository gives itself.
 
 | Project | What it is | Status |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed capability retrieval and execution layer for RAG and LLM agents across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.11.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
-| **[Helm](https://github.com/JDeun/Helm)** | Stability-first operations CLI for long-running AI agent workspaces | `pip install helm-agent-ops` · **v1.0.0** · MIT |
-| **[local_context](https://github.com/JDeun/local_context)** | Location, time, and weather context for agents, kept on your own mesh instead of a cloud | **v0.1.0** · MIT · zero dependencies |
-| **[GrowWise](https://github.com/JDeun/growwise)** | Local-first family learning system built on persistent child-specific context | source · pre-1.0 · Apache-2.0 |
-| **[AudioScoreTool](https://github.com/JDeun/audio-score-tool)** | Audio and sheet-music images into editable, publication-ready scores | source · v0.8.0, before signed release · Apache-2.0 |
-| **[LangTextFlow](https://github.com/JDeun/LangTextFlow)** | Realtime multilingual captions for live events, local-first | source · pre-field alpha · Apache-2.0 |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed routing and execution across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.11.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
+| **[Helm](https://github.com/JDeun/Helm)** | Operations CLI for long-running agent workspaces | `pip install helm-agent-ops` · **v1.0.0** · MIT |
+| **[local_context](https://github.com/JDeun/local_context)** | Place, time, and weather for agents — on your own mesh, not a cloud | **v0.1.0** · MIT · zero dependencies |
+| **[GrowWise](https://github.com/JDeun/growwise)** | Family learning app with persistent per-child context | source · pre-1.0 · Apache-2.0 |
+| **[AudioScoreTool](https://github.com/JDeun/audio-score-tool)** | Audio and score images into editable sheet music | source · v0.8.0, before signed release · Apache-2.0 |
+| **[LangTextFlow](https://github.com/JDeun/LangTextFlow)** | Realtime multilingual captions for live events | source · pre-field alpha · Apache-2.0 |
 | **[unified-search-mcp-server](https://github.com/JDeun/unified-search-mcp-server)** | One MCP server across Google Scholar, web, and YouTube | source · MIT |
 
 ---
@@ -80,9 +80,9 @@ All of it comes from one finding I kept running into: **the harness around a mod
 
 ### SchemaRouter — paper and library
 
-SchemaRouter sits between a RAG/agent application and its structured external capabilities. It normalizes OpenAPI, MCP, OPTIMADE, Python, and plugin-defined tools into a typed capability catalog, selects a bounded executable route, and validates the contract **both before and after** execution.
+SchemaRouter sits between a RAG or agent application and the tools it calls. It normalizes OpenAPI, MCP, OPTIMADE, Python, and plugin-defined tools into one typed catalog, picks a bounded route for the request, and checks the contract **both before and after** execution.
 
-The [paper](https://arxiv.org/abs/2608.21375) argues that schemas belong in the routing problem rather than semantic similarity alone. The library is that argument, installable:
+The [paper](https://arxiv.org/abs/2608.21375) argues that schemas belong in the routing problem, not just semantic similarity. The library is that argument, installable:
 
 - 5 adapters — MCP, OpenAPI, OPTIMADE, Python, plugins
 - 8 ecosystem integrations — LangChain, LangGraph, LlamaIndex, Ollama, OpenTelemetry, and others
@@ -94,7 +94,7 @@ It is deliberately **not** a general agent framework, an LLM provider layer, or 
 
 ### Helm
 
-**Helm** is an open-source operations layer for long-lived AI agents and workflows. It makes persistent agent systems explicit and controllable instead of leaving them to hidden runtime behavior: execution profiles, context hydration, manifest-based skill policy, auditability, and operational boundaries.
+**Helm** is an operations layer for agents that stay running. It replaces hidden runtime behavior with things you can inspect and set: execution profiles, context hydration, manifest-based skill policy, audit trails, and operational boundaries.
 
 ### Product work — one recurring problem
 
