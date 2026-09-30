@@ -87,6 +87,20 @@
 
 SchemaRouter는 RAG·에이전트 앱과 그것이 호출하는 도구 사이에 놓입니다. OpenAPI·MCP·OPTIMADE·Python·플러그인 도구를 하나의 타입 있는 카탈로그로 묶고, 요청에 맞는 실행 경로를 좁혀 고른 뒤, **실행 전과 후 양쪽에서** 계약을 검사합니다. 일반 에이전트 프레임워크도, LLM 프로바이더 계층도, RAG 생성기도 **아닙니다.**
 
+```mermaid
+flowchart LR
+    SRC["OpenAPI · MCP · OPTIMADE<br/>Python · 플러그인"] --> CAT["타입 있는<br/>capability<br/>카탈로그"]
+    APP["RAG · 에이전트 앱"] -->|"필요한 것"| ROUTE
+    CAT --> ROUTE["요청에 맞는<br/>실행 경로"]
+    ROUTE --> C1["계약 검사"]
+    C1 --> EX["실행"]
+    EX --> C2["계약 재검사"]
+    C2 --> OUT["타입 있는 결과"]
+
+    style C1 stroke-dasharray: 4 3
+    style C2 stroke-dasharray: 4 3
+```
+
 [논문](https://arxiv.org/abs/2608.21375)은 의미 유사도만이 아니라 스키마도 라우팅 문제의 일부라고 주장합니다. 그 주장을 그대로 설치해 쓸 수 있게 만든 것이 이 라이브러리입니다.
 
 - 어댑터 5종 — MCP, OpenAPI, OPTIMADE, Python, 플러그인
