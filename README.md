@@ -87,20 +87,6 @@ Three of the projects above, and why they are built the way they are.
 
 SchemaRouter sits between a RAG or agent application and the tools it calls. It normalizes OpenAPI, MCP, OPTIMADE, Python, and plugin-defined tools into one typed catalog, picks a bounded route for the request, and checks the contract **both before and after** execution. It is deliberately **not** a general agent framework, an LLM provider layer, or a RAG generator.
 
-```mermaid
-flowchart LR
-    SRC["OpenAPI · MCP · OPTIMADE<br/>Python · plugins"] --> CAT["one typed<br/>capability catalog"]
-    APP["RAG / agent<br/>application"] -->|"what it needs"| ROUTE
-    CAT --> ROUTE["bounded route<br/>for this request"]
-    ROUTE --> C1["contract<br/>checked"]
-    C1 --> EX["execute"]
-    EX --> C2["contract<br/>checked again"]
-    C2 --> OUT["typed result"]
-
-    style C1 stroke-dasharray: 4 3
-    style C2 stroke-dasharray: 4 3
-```
-
 The [paper](https://arxiv.org/abs/2608.21375) argues that schemas belong in the routing problem, not just semantic similarity. The library is that argument, installable:
 
 - 5 adapters — MCP, OpenAPI, OPTIMADE, Python, plugins
