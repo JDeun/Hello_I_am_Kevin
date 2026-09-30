@@ -45,6 +45,13 @@ OWNER = "JDeun"
 ARXIV_AUTHOR = "Cho, Yong-eun"
 UA = {"User-Agent": "JDeun-profile-updater"}
 
+# Badge palette, taken from the header banner gradient so the badges read as one set
+# rather than three clashing brand colours. The sponsor badge is deliberately the
+# only exception (teal) -- everything else being uniform is what makes it read as
+# the call to action. Keep this in sync with the hand-written badges in the READMEs.
+BADGE_LABEL_COLOR = "0f172a"
+BADGE_ACCENT_COLOR = "1d4ed8"
+
 # Audit only. Deliberately just identifiers -- no prose, no ordering, no status.
 # Anything describing a project belongs in the README, where a human edits it.
 AUDITED = {
@@ -115,7 +122,8 @@ def arxiv_badge(lang: str, count: int) -> str:
     quoted = urllib.parse.quote(label).replace("-", "--")
     return (
         '    <a href="https://arxiv.org/search/?searchtype=author&query=Yong-eun+Cho" target="_blank">\n'
-        f'      <img src="https://img.shields.io/badge/arXiv-{quoted}-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" />\n'
+        f'      <img src="https://img.shields.io/badge/arXiv-{quoted}-{BADGE_ACCENT_COLOR}'
+        f'?style=for-the-badge&labelColor={BADGE_LABEL_COLOR}&logo=arxiv&logoColor=white" alt="arXiv" />\n'
         "    </a>"
     )
 

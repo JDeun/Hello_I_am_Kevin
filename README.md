@@ -10,17 +10,20 @@
   </p>
 
   <p>
-    <a href="mailto:jdmeekboi@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="mailto:jdmeekboi@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <!-- arxiv-badge starts -->
     <a href="https://arxiv.org/search/?searchtype=author&query=Yong-eun+Cho" target="_blank">
-      <img src="https://img.shields.io/badge/arXiv-3%20sole--author%20papers-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" />
+      <img src="https://img.shields.io/badge/arXiv-3%20sole--author%20papers-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=arxiv&logoColor=white" alt="arXiv" />
     </a>
 <!-- arxiv-badge ends -->
+    <a href="https://github.com/sponsors/JDeun" target="_blank">
+      <img src="https://img.shields.io/badge/Sponsor-14b8a6?style=for-the-badge&labelColor=0f172a&logo=githubsponsors&logoColor=white" alt="Sponsor" />
+    </a>
   </p>
   <p><strong>English</strong> · <a href="README.ko.md">한국어</a></p>
 </div>
@@ -35,7 +38,7 @@ I came to AI systems from Korean literature, and I still think the interesting p
 
 | Project | What it is | Status |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed routing and execution across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.11.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed routing and execution across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.12.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
 | **[Helm](https://github.com/JDeun/Helm)** | Operations CLI for long-running agent workspaces | `pip install helm-agent-ops` · **v1.0.0** · MIT |
 | **[local_context](https://github.com/JDeun/local_context)** | Place, time, and weather for agents — on your own mesh, not a cloud | **v0.1.0** · MIT · zero dependencies |
 | **[GrowWise](https://github.com/JDeun/growwise)** | Family learning app with persistent per-child context | source · pre-1.0 · Apache-2.0 |
@@ -130,3 +133,5 @@ Happy to talk about LLM operational reliability, agentic RAG and routing, or loc
 
 - Email: [jdmeekboi@gmail.com](mailto:jdmeekboi@gmail.com)
 - LinkedIn: [linkedin.com/in/조용은](https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80)
+
+If any of the packages above are useful to you, you can [sponsor the work](https://github.com/sponsors/JDeun).

@@ -10,17 +10,20 @@
   </p>
 
   <p>
-    <a href="mailto:jdmeekboi@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <a href="mailto:jdmeekboi@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/Email-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <!-- arxiv-badge starts -->
     <a href="https://arxiv.org/search/?searchtype=author&query=Yong-eun+Cho" target="_blank">
-      <img src="https://img.shields.io/badge/arXiv-%EB%8B%A8%EB%8F%85%EC%A0%80%EC%9E%90%203%ED%8E%B8-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv" />
+      <img src="https://img.shields.io/badge/arXiv-%EB%8B%A8%EB%8F%85%EC%A0%80%EC%9E%90%203%ED%8E%B8-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=arxiv&logoColor=white" alt="arXiv" />
     </a>
 <!-- arxiv-badge ends -->
+    <a href="https://github.com/sponsors/JDeun" target="_blank">
+      <img src="https://img.shields.io/badge/%ED%9B%84%EC%9B%90-14b8a6?style=for-the-badge&labelColor=0f172a&logo=githubsponsors&logoColor=white" alt="Sponsor" />
+    </a>
   </p>
   <p><a href="README.md">English</a> · <strong>한국어</strong></p>
 </div>
@@ -35,7 +38,7 @@
 
 | 프로젝트 | 무엇인가 | 상태 |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 한 카탈로그로 묶어 라우팅하고 실행 | `pip install schemarouter` · **v0.11.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 한 카탈로그로 묶어 라우팅하고 실행 | `pip install schemarouter` · **v0.12.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
 | **[Helm](https://github.com/JDeun/Helm)** | 오래 돌아가는 에이전트 워크스페이스를 운영하는 CLI | `pip install helm-agent-ops` · **v1.0.0** · MIT |
 | **[local_context](https://github.com/JDeun/local_context)** | 에이전트에 위치·시각·날씨를 알려주되, 좌표는 클라우드가 아닌 내 기기에만 | **v0.1.0** · MIT · 의존성 0 |
 | **[GrowWise](https://github.com/JDeun/growwise)** | 아이의 기록이 다음 활동으로 이어지는 가족 학습 앱 | 소스 · pre-1.0 · Apache-2.0 |
@@ -130,3 +133,5 @@ LLM 운영 신뢰성, 에이전틱 RAG와 라우팅, 로컬 우선 AI와 프라�
 
 - 이메일: [jdmeekboi@gmail.com](mailto:jdmeekboi@gmail.com)
 - LinkedIn: [linkedin.com/in/조용은](https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80)
+
+위 패키지가 쓸모 있었다면 [후원](https://github.com/sponsors/JDeun)으로 거들어 주셔도 좋습니다.
