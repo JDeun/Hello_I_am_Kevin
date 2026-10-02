@@ -13,7 +13,7 @@
     <a href="mailto:jdmeekboi@gmail.com" target="_blank">
       <img src="https://img.shields.io/badge/Email-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80" target="_blank">
+    <a href="https://www.linkedin.com/in/kevinthemeekboi" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <!-- arxiv-badge starts -->
@@ -38,12 +38,12 @@ I came to AI systems from Korean literature, and I still think the interesting p
 
 | Project | What it is | Status |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed routing and execution across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.12.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | Typed routing and execution across OpenAPI, MCP, OPTIMADE, and Python tools | `pip install schemarouter` · **v0.14.0** · MIT · [docs](https://jdeun.github.io/SchemaRouter/) |
 | **[Helm](https://github.com/JDeun/Helm)** | Operations CLI for long-running agent workspaces | `pip install helm-agent-ops` · **v1.0.0** · MIT |
-| **[local_context](https://github.com/JDeun/local_context)** | Place, time, and weather for agents — on your own mesh, not a cloud | **v0.1.0** · MIT · zero dependencies |
-| **[GrowWise](https://github.com/JDeun/growwise)** | Family learning app with persistent per-child context | source · pre-1.0 · Apache-2.0 |
 | **[AudioScoreTool](https://github.com/JDeun/audio-score-tool)** | Audio and score images into editable sheet music | source · v0.8.0, before signed release · Apache-2.0 |
 | **[LangTextFlow](https://github.com/JDeun/LangTextFlow)** | Realtime multilingual captions for live events | source · pre-field alpha · Apache-2.0 |
+| **[local_context](https://github.com/JDeun/local_context)** | Place, time, and weather for agents — on your own mesh, not a cloud | **v0.1.0** · MIT · zero dependencies |
+| **[GrowWise](https://github.com/JDeun/growwise)** | Family learning app with persistent per-child context | source · pre-1.0 · Apache-2.0 |
 | **[unified-search-mcp-server](https://github.com/JDeun/unified-search-mcp-server)** | One MCP server across Google Scholar, web, and YouTube | source · MIT |
 
 ---
@@ -132,6 +132,6 @@ Each of these is checkable in the repositories above.
 Happy to talk about LLM operational reliability, agentic RAG and routing, or local-first AI and privacy boundaries.
 
 - Email: [jdmeekboi@gmail.com](mailto:jdmeekboi@gmail.com)
-- LinkedIn: [linkedin.com/in/조용은](https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80)
+- LinkedIn: [linkedin.com/in/kevinthemeekboi](https://www.linkedin.com/in/kevinthemeekboi)
 
 If any of the packages above are useful to you, you can [sponsor the work](https://github.com/sponsors/JDeun).
