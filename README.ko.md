@@ -13,7 +13,7 @@
     <a href="mailto:jdmeekboi@gmail.com" target="_blank">
       <img src="https://img.shields.io/badge/Email-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=gmail&logoColor=white" alt="Email" />
     </a>
-    <a href="https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80" target="_blank">
+    <a href="https://www.linkedin.com/in/kevinthemeekboi" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-1d4ed8?style=for-the-badge&labelColor=0f172a&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <!-- arxiv-badge starts -->
@@ -38,12 +38,12 @@
 
 | 프로젝트 | 무엇인가 | 상태 |
 |---|---|---|
-| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 한 카탈로그로 묶어 라우팅하고 실행 | `pip install schemarouter` · **v0.12.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
+| **[SchemaRouter](https://github.com/JDeun/SchemaRouter)** | OpenAPI·MCP·OPTIMADE·Python 도구를 한 카탈로그로 묶어 라우팅하고 실행 | `pip install schemarouter` · **v0.14.0** · MIT · [문서](https://jdeun.github.io/SchemaRouter/) |
 | **[Helm](https://github.com/JDeun/Helm)** | 오래 돌아가는 에이전트 워크스페이스를 운영하는 CLI | `pip install helm-agent-ops` · **v1.0.0** · MIT |
-| **[local_context](https://github.com/JDeun/local_context)** | 에이전트에 위치·시각·날씨를 알려주되, 좌표는 클라우드가 아닌 내 기기에만 | **v0.1.0** · MIT · 의존성 0 |
-| **[GrowWise](https://github.com/JDeun/growwise)** | 아이의 기록이 다음 활동으로 이어지는 가족 학습 앱 | 소스 · pre-1.0 · Apache-2.0 |
 | **[AudioScoreTool](https://github.com/JDeun/audio-score-tool)** | 음원·악보 이미지를 편집 가능한 출판 악보로 | 소스 · v0.8.0, 서명 배포 전 · Apache-2.0 |
 | **[LangTextFlow](https://github.com/JDeun/LangTextFlow)** | 현장에서 바로 쓰는 실시간 다국어 자막 | 소스 · pre-field alpha · Apache-2.0 |
+| **[local_context](https://github.com/JDeun/local_context)** | 에이전트에 위치·시각·날씨를 알려주되, 좌표는 클라우드가 아닌 내 기기에만 | **v0.1.0** · MIT · 의존성 0 |
+| **[GrowWise](https://github.com/JDeun/growwise)** | 아이의 기록이 다음 활동으로 이어지는 가족 학습 앱 | 소스 · pre-1.0 · Apache-2.0 |
 | **[unified-search-mcp-server](https://github.com/JDeun/unified-search-mcp-server)** | 구글 스콜라·웹·유튜브를 한 번에 검색하는 MCP 서버 | 소스 · MIT |
 
 ---
@@ -132,6 +132,6 @@ SchemaRouter는 RAG·에이전트 앱과 그것이 호출하는 도구 사이에
 LLM 운영 신뢰성, 에이전틱 RAG와 라우팅, 로컬 우선 AI와 프라이버시 경계 — 이런 주제라면 언제든 반갑습니다.
 
 - 이메일: [jdmeekboi@gmail.com](mailto:jdmeekboi@gmail.com)
-- LinkedIn: [linkedin.com/in/조용은](https://www.linkedin.com/in/%EC%A1%B0%EC%9A%A9%EC%9D%80)
+- LinkedIn: [linkedin.com/in/kevinthemeekboi](https://www.linkedin.com/in/kevinthemeekboi)
 
 위 패키지가 쓸모 있었다면 [후원](https://github.com/sponsors/JDeun)으로 거들어 주셔도 좋습니다.
